@@ -4,26 +4,33 @@
         box-sizing: border-box;
     }
     
-    .container {
-        width: 100%;
-        min-height: 100vh;
-        background: linear-gradient(135deg, #c2e0ff, #ffb3d6);
-        padding: 10px;
-    }
-    
-    .toDo {
-        width: 100%;
-        max-width: 500px;
-        background-color: rgba(255, 255, 255, 0.75);
-        margin: 100px auto 20px;
-        padding: 40px 30px 70px;
-        border-radius: 10px;
-    }
-    
+ .container {
+    width: 100%;
+    min-height: 100vh;
+    background: #ffffff;
+    padding: 10px;
+}
+
+   .toDo {
+    width: 100%;
+    max-width: 500px;
+    background: linear-gradient(
+        135deg,
+        #ffe5e5,
+        #e8eaff,
+        #dcfff5
+    );
+
+    margin: 100px auto 20px;
+
+    padding: 40px 30px 70px;
+
+    border-radius: 10px;
+}
     .toDo h1 {
         margin-bottom: 30px;
         font-size: 30px;
-        color: #232323;
+        color: #aebfde;
         display: flex;
         align-items: center;
     }
@@ -37,7 +44,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #eaeaea;
+        background-color: #e8b3b3;
         border-radius: 30px;
         padding-left: 10px;
         margin-bottom: 25px;
@@ -56,7 +63,7 @@
         border: none;
         outline: none;
         padding: 10px 20px;
-        background: #7f49d7;
+        background: #bfc9da;
         color: #ffffff;
         font-size: 16px;
         cursor: pointer;
@@ -113,3 +120,30 @@
         background: #ccc;
         color: #fff;
     }
+
+    .stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    color:#626666;
+    }
+    
+    .toDo h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #080808;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.toDo h1 img {
+    width: 35px;
+    margin-left: 10px;
+}
+
